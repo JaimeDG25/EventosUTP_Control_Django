@@ -1,6 +1,6 @@
 import re
 from ..models import Apoyo,Promotor,Colegio
-
+from fs_apoyo import CN_Apoyo
 class CN_Colegio():
     @staticmethod
     def validar_registro(nombre,apellido,telefono,dni,ruc,correo):
